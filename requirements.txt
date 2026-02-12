@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 pandas
-streamlit
+streamlit>=1.42.0
 plotly
 google-generativeai
 python-dotenv
