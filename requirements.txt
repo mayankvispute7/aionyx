@@ -9,3 +9,4 @@ requests
 pydantic
 python-multipart
 jinja2
+altair<5
