@@ -6,7 +6,7 @@ import time
 
 # --- CONFIGURATION ---
 # CHANGE THIS TO YOUR RENDER URL AFTER DEPLOYMENT
-API_URL = "http://127.0.0.1:8001/api/v1" 
+API_URL = "https://aionyx-mayank.onrender.com/api/v1"
 
 st.set_page_config(
     page_title="AIONYX | Mayank Vispute",
