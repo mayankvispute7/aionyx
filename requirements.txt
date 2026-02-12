@@ -1,7 +1,11 @@
-fastapi>=0.109.0
-uvicorn[standard]>=0.27.0
-pandas>=2.0.0
+fastapi
+uvicorn
+pandas
+streamlit
+plotly
+google-generativeai
+python-dotenv
+requests
+pydantic
 python-multipart
-pydantic>=2.0.0
-google-generativeai>=0.3.2
-python-dotenv>=1.0.0
+jinja2
