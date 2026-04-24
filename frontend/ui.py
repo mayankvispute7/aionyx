@@ -9,7 +9,7 @@ import time
 API_URL = "https://aionyx-mayank.onrender.com/api/v1"
 
 st.set_page_config(
-    page_title="AIONYX | Mayank Vispute",
+    page_title="AIONYX",
     page_icon="🧬",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -87,7 +87,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
         <div class="dev-badge">
-            <b>Developed by Mayank Vispute</b><br>
+            <b></b><br>
             © 2026 AIONYX Systems<br>
             All Rights Reserved.
         </div>
