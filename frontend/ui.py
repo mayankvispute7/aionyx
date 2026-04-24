@@ -97,7 +97,7 @@ with st.sidebar:
 col1, col2 = st.columns([3, 1])
 with col1:
     st.title("🧬 AIONYX Intelligence")
-    st.markdown("**Architected by Mayank Vispute** | Enterprise Data Solution")
+    st.markdown("**** | Enterprise Data Solution")
 
 # --- LOGIC ---
 if "messages" not in st.session_state:
@@ -110,7 +110,7 @@ if uploaded_file is not None:
 
     # API CALL
     if "analysis_data" not in st.session_state or st.session_state.get("current_file") != uploaded_file.name:
-        with st.spinner("Mayank's AI Engine is processing..."):
+        with st.spinner("AI Engine is processing..."):
             try:
                 files = {"file": (uploaded_file.name, uploaded_file, "text/csv")}
                 response = requests.post(f"{API_URL}/analyze", files=files)
